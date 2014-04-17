@@ -1,20 +1,20 @@
 $(document).ready(function(){
-	$('#up-bth').click(function)(){
+	$('#up-btn').click(function)(){
 		$('#player').animate({top:"-=60px"}, 'fast');
 	});
-	$('#down-bth').click(function (){
+	$('#down-btn').click(function (){
 		$('#player').animate(top:"+=60px"}, 'fast');
 	});
-	$('#left-bth').click(function (){
+	$('#left-btn').click(function (){
 		$('#player').animate({left:"-=60px"}, 'fast');
 	});
-	$('#right-bth').click(function (){
+	$('#right-btn').click(function (){
 		$('#player').animate({left:"+=60px"}, 'fast');
 	});
-	$('#in-bth').click(function (){
+	$('#in-btn').click(function (){
 		$('#player').fadeIn ('slow');
 	});
-	$('#out-bth').click(function (){
+	$('#out-btn').click(function (){
 		$('#player').fadeOut ('slow');
 	});
 	$('#player').hover(function (){
