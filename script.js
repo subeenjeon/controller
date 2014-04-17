@@ -16,7 +16,10 @@ $(document).ready(funtion(){
 	$('#out-bth').click(function (){
 		$('#player').fadeOut ('slow');
 	});
-	$('#player').click(function (){
+	$('#player').hover(function (){
 		$('#player').effect('bounce', {times:5}, 700);
+	});
+	$('#player').click(function (){
+		$('#player').effect('explode');
 	});
 });
