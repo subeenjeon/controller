@@ -2,6 +2,8 @@ html, body {
 	margin: 0;
 	width: 100%;
 	height: 100%;
+	
+	background-image:url('http://ebook.kcm.kr/files/2011/06/11/201106111307785868137220171812064817311051829480.png');
 }
 
 #player {
