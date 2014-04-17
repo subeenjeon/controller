@@ -20,12 +20,11 @@ html, body {
 
 #controller {
 	margin: 20px;
-
 	width: 100px;
-
 	border: 3px solid #94bbb6;
-	border-radius: 10px;
+	
 	background-color:#94bbb6;
+	border-radius: 10px;
 }
 
 ul {
