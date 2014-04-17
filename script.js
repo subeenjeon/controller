@@ -25,7 +25,6 @@ $(document).ready(function(){
     $('#player').hover(function() {
     	   $('#player').effct('bounce', {times:5}, 700);
     });
-     
 });
 
 
