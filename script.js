@@ -19,10 +19,10 @@ $(document).ready(function(){
     });
     $('#player').hover(
        function() {
-    	   $('#player').addClass('active');
+    	   $(this).addClass('active');
        },
        function(){
-          $('#player').removeClass('active');
+          $(this).removeClass('active');
        });
     $('#player').click(function() {
     	$('#player').effect('explode');
