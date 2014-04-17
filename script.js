@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('#up-btn').click(function() {
+    $('#up-btn').click(function() {
     	$('#player').animate({top: "-=10px"}, 'fast');
     });
     $('#down-btn').click(function() {
@@ -17,10 +17,11 @@ $(document).ready(function(){
     $('#out-btn').click(function() {
     	$('#player').fadeOut('fast');
     });
-	 $('#player').hover(function (){
-		$('#player').effect('bounce', {times:5}, 700);
-	 });
-	 $('#player').click(function (){
-		$('#player').effect('explode');
-	});
+	 
+    $('#player').hover(function (){
+	$('#player').effect('bounce', {times:5}, 700);
+    });
+    $('#player').click(function (){
+	$('#player').effect('explode');
+    });
 });
