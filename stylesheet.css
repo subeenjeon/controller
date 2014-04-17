@@ -23,7 +23,7 @@ html, body {
 
 	width: 100px;
 
-	border: 1px #94bbb6;
+	border: 3px solid #94bbb6;
 }
 
 ul {
@@ -40,6 +40,6 @@ ul li {
 	width: 80px;
 	height: 20px;
 
-	border: 1px solid black;
-	border-radius: 10px;
+	border: 2px solid #94bbb6;
+	border-radius: 5px;
 }
