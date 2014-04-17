@@ -17,8 +17,11 @@ $(document).ready(function(){
     $('#out-btn').click(function() {
     	$('#player').fadeOut('slow');
     });
-    $('#player').hover(function() {
-    	$('#player').effect('bounce', {times:1}, 700);
+    $('#player').onmouseover(function() {
+    	$('#player').effect('bounce', {times:5}, 700);
+    });
+    $('#player').onmouseout(function(){
+       $('#player').fadeIn('fast');
     });
     $('#player').click(function() {
     	$('#player').effect('explode');
