@@ -17,9 +17,13 @@ $(document).ready(function(){
     $('#out-btn').click(function() {
     	$('#player').fadeOut('slow');
     });
-    $('#player').hover(function() {
-    	$('#player').effect('bounce', {times:5}, 700);
-    });
+    $('#player').hover(
+       function() {
+    	   $('#player').effect('bounce', {times:5}, 700);
+       },
+       function(){
+          $('#player').removeeffct('bounce', {times:5}, 700);
+       });
     $('#player').click(function() {
     	$('#player').effect('explode');
     });    
