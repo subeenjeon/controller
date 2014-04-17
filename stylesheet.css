@@ -4,7 +4,7 @@ html, body {
 	height: 100%;
 }
 
-#player-btn {
+#player {
 	position: absolute;
 
 	top: 50%;
