@@ -19,7 +19,7 @@ $(document).ready(function(){
     	$('#player').fadeOut('slow');
     });
     $('#player').hover(function() {
-    	$('#player').effct('bounce', {times:5}, 700);
+    	$('this').effct('bounce', {times:5}, 700);
     });
     $('#player').click(function() {
     	$('#player').effect('explode');
