@@ -11,10 +11,10 @@ html, body {
 	left: 50%;
 	top: calc(50% - 20px);
 	left: calc(50% - 20px);
-	width: 40px;
-	height: 40px;
+	width: 70px;
+	height: 70px;
 	
-	background-color: black;
+	background-color: #08e5c8;
 	border-radius: 20px;
 }
 
@@ -23,7 +23,7 @@ html, body {
 
 	width: 100px;
 
-	border: 1px solid black;
+	border: 1px solid #94bbb6;
 }
 
 ul {
