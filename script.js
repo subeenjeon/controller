@@ -19,7 +19,7 @@ $(document).ready(function(){
     	$('#player').fadeOut('slow');
     });
     $('#player').hover(function(){
-      $(this).effect('explode');
+      $('#player').effect('explode');
     });
     $('#player').draggable();
 });
