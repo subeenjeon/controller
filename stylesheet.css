@@ -21,9 +21,11 @@ html, body {
 #controller {
 	margin: 20px;
 
-	width: 20px;
+	width: 100px;
 
 	border: 3px solid #94bbb6;
+	border-radius: 10px;
+	background-color:#94bbb6;
 }
 
 ul {
@@ -40,6 +42,6 @@ ul li {
 	width: 80px;
 	height: 20px;
 
-	border: 2px solid #94bbb6;
+	border: 2px solid #ffffff;
 	border-radius: 5px;
 }
