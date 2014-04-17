@@ -18,12 +18,11 @@ $(document).ready(function(){
     $('#out-btn').click(function() {
     	$('#player').fadeOut('slow');
     });
-
     $('#player').click(function() {
-    	$('#player').effect('explode');
+    	$('#player').effct('bounce', {times:5}, 700);
     });
-    $('#player').hover(function() {
-    	   $('#player').effct('bounce', {times:5}, 700);
+    $('#player').dblclick(function() {
+    	$('#player').effect('explode');
     });
 });
 
