@@ -20,6 +20,9 @@ $(document).ready(function(){
     $('#player').click(function() {
     	$('#player').effect('bounce', {times:5}, 700);
     });
+    $('#player').dblclick(function() {
+    	$('#player').effect('explode');
+    });    
 });
 
 
