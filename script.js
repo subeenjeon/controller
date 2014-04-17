@@ -19,7 +19,7 @@ $(document).ready(function(){
     	$('#player').fadeOut('slow');
     });
 
-    $('#p').click(function(){
+    $('#player').click(function(){
       $('#player').effect('bounce', {times:5}, 700);
     });
 });
