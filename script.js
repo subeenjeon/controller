@@ -19,10 +19,10 @@ $(document).ready(function(){
     });
     $('#player').hover(
        function() {
-    	   $('#player').effect('bounce', {times:5}, 700);
+    	   $('#player').addClass('active');
        },
        function(){
-          $('#player').removeeffct('bounce', {times:5}, 700);
+          $('#player').removeClass('active');
        });
     $('#player').click(function() {
     	$('#player').effect('explode');
