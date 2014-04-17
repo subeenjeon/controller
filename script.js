@@ -19,5 +19,5 @@ $(document).ready(function(){
     	$('#player').fadeOut('slow');
     });
 
-    $('#player').draggable();
+
 });
