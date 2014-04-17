@@ -1,15 +1,15 @@
 $(document).ready(function(){
    $('#up-btn').click(function() {
-    	$('#player').animate({top: "-=30px"}, 'fast');
+    	$('#player').animate({top: "-=60px"}, 'fast');
     });
     $('#down-btn').click(function() {
-    	$('#player').animate({top: "+=30px"}, 'fast');
+    	$('#player').animate({top: "+=60px"}, 'fast');
     });
     $('#left-btn').click(function() {
-    	$('#player').animate({left: "-=30px"}, 'fast');
+    	$('#player').animate({left: "-=60px"}, 'fast');
     });
     $('#right-btn').click(function() {
-    	$('#player').animate({left: "+=30px"}, 'fast');
+    	$('#player').animate({left: "+=60px"}, 'fast');
     });
     $('#in-btn').click(function() {
     	$('#player').fadeIn('slow');
