@@ -11,20 +11,21 @@ $(document).ready(function(){
     $('#right-btn').click(function() {
     	$('#player').animate({left: "+=60px"}, 'fast');
     });
+
     $('#in-btn').click(function() {
     	$('#player').fadeIn('slow');
     });
     $('#out-btn').click(function() {
     	$('#player').fadeOut('slow');
     });
-    $('div').hover(
-       function() {
-    	   $(this).addClass('active');
-       },
-       function(){
-          $(this).removeClass('active');
-       });
-   
+
+    $('#player').click(function() {
+    	$('#player').effect('explode');
+    });
+    $('#player').hover(function() {
+    	   $('#player').effct('bounce', {times:5}, 700);
+    });
+     
 });
 
 
