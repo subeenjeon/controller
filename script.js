@@ -20,6 +20,6 @@ $(document).ready(function(){
     });
 
     $('#player').hover(function(){
-      $('#player').addClass('bounce', {times:5}, 700);
+      $('#player').effect('bounce', {times:5}, 700);
     });
 });
