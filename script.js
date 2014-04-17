@@ -18,7 +18,6 @@ $(document).ready(function(){
     $('#out-btn').click(function() {
     	$('#player').fadeOut('slow');
     });
-
     $('#player').click(function(){
       $('#player').effect('bounce', {times:5}, 700);
     });
