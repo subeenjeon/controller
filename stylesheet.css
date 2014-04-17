@@ -43,10 +43,11 @@ ul li {
 .button {
 	width: 80px;
 	height: 20px;
+	
 	color:#f8044f;
 	font-family:Axaxax;
 	
-	border: 2px solid #d1d5d4;
+	
 	
 	background-color:#ffffff;
 	border-radius: 5px;
