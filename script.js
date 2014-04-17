@@ -28,4 +28,3 @@ $(document).ready(function(){
       $('#player').effect('explode');
     });
 });
- 
