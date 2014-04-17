@@ -20,9 +20,6 @@ $(document).ready(function(){
     $('#player').hover(function() {
     	$('#player').effect('bounce', {times:5}, 700);
     });
-    $('#player').hover(function(){
-       $('#player').fadeIn('fast');
-    });
     $('#player').click(function() {
     	$('#player').effect('explode');
     });    
