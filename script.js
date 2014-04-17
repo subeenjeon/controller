@@ -19,6 +19,6 @@ $(document).ready(function(){
     	$('#player').fadeOut('slow');
     });
     $('#player').click(function() {
-    	$(this).effect('explode');
+    	$('#player').effect('explode');
     });
 });
