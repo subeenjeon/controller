@@ -24,7 +24,7 @@ $(document).ready(function(){
     $('#player').hover(function() {
     	$('#player').effect('bounce', {times:5}, 700);
     });
-    $('#player').dblclick(function(){
+    $('#player').click(function(){
       $('#player').effect('explode');
     });
 });
