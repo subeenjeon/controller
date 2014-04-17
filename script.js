@@ -12,12 +12,15 @@ $(document).ready(function(){
     	$('#player').animate({left: "+=60px"}, 'fast');
     });
 
+
     $('#in-btn').click(function() {
     	$('#player').fadeIn('slow');
     });
     $('#out-btn').click(function() {
     	$('#player').fadeOut('slow');
     });
+    
+    
     $('#player').hover(function() {
     	$('#player').effect('bounce', {times:5}, 700);
     });
