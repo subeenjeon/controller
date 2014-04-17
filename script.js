@@ -1,4 +1,4 @@
-$(document).ready(funtion(){
+$(document).ready(function(){
 	$('#up-bth').click(function)(){
 		$('#player').animate({top:"-=60px"}, 'fast');
 	});
