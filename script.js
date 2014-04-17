@@ -24,9 +24,7 @@ $(document).ready(function(){
        function(){
           $(this).removeClass('active');
        });
-    $('#player').click(function() {
-    	$('#player').effect('explode');
-    });    
+   
 });
 
 
