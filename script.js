@@ -17,10 +17,10 @@ $(document).ready(function(){
 	$('#out-btn').click(function() {
 		$('#player').fadeOut('slow');
 	});
-	$('#player').on(mouse enter function() {
+	$('#player').on(mouseenter function() {
 		$('#player').effect('bounce', {times:5}, 700);
 	});
 	$('#player').click(function () {
-		$('#player').effect('explode').show("fast");
+		$('#player').effect('explode').show("slow");
 	});
 });
